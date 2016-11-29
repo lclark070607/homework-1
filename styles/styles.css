@@ -4,7 +4,7 @@ a {
 }
 
 h4 {
-    font: 14px Raleway, sans-serif;
+    font: 16px Raleway, sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     display: inline-block;
@@ -54,13 +54,40 @@ h3 {
     font: 24px Raleway, sans-serif;
     text-align: center;
     font-weight: 300;
+    margin-top: -10px;
 }
 .part1 {
     font-weight: bold;
 }
 .part2 {
-    color: green;
+    color: darkorange;
 }
 .part3 {
     font-weight: normal;
+}
+
+/*Found this info on http://www.w3schools.com/css/css3_buttons.asp*/
+
+button {
+    background-color: darkorange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    -moz-box-align: center;
+}
+
+button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color:black; 
+    color: white;
 }
