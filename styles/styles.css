@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+  color: darkorange;
+}
+
+h1 {
+    font: 14px Raleway, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 20%;
+    color:darkorange;
+    margin-left: 5%;
+}
+
+nav {
+    width: 50%;
+    display: inline-block;
+    margin-left: 20%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  font: 12px Raleway, sans-serif;
+  text-transform: uppercase;
+}
