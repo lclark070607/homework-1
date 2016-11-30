@@ -51,7 +51,7 @@ h2 {
 }
 
 h3 {
-    font: 24px Raleway, sans-serif;
+    font: 21px Raleway, sans-serif;
     text-align: center;
     font-weight: 300;
     margin-top: -10px;
@@ -79,7 +79,6 @@ button {
     font-size: 16px;
     margin: auto;
     cursor: pointer;
-    -moz-box-align: center;
 }
 
 button {
@@ -90,4 +89,50 @@ button {
 button:hover {
     background-color:black; 
     color: white;
+}
+
+h5 {
+    color: black;
+    font: 28px Raleway, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.dash {
+    font: 36px Raleway, sans-serif;
+    font-weight: bold;
+    color: darkorange;
+    text-align: center;
+    display: block;
+    padding-bottom: 30px;
+}
+h3 {
+    padding: 20px;
+}
+ul.series {
+    margin-left: 50px;
+}
+
+ul.series h3 {
+    font-weight: normal;
+    padding: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    margin-left: -15px;
+}
+
+ul.series img {
+    box-shadow: -10px -10px darkorange;
+}
+
+ul.series p {
+    font: 14px Raleway, sans-serif;
+    font-weight: 300;
+    text-transform: lowercase;
+    line-height: 20px;
+    text-align: justify;
+    padding: 20px;
+    margin-left: -15px;
+    margin-right: 50px; 
 }
