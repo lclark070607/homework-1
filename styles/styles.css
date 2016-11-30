@@ -136,3 +136,11 @@ ul.series p {
     margin-left: -15px;
     margin-right: 50px; 
 }
+ul.contact li {
+    font: 14px Raleway, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 40px;
+    margin-left: 70px;
+    text-align: justify;
+}
